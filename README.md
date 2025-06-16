@@ -30,27 +30,36 @@ Compreensão dos dados: análise exploratória realizada aos dados brutos, com o
 brutos (utiliza o ficheiro excel DataSet_DadosBrutos). Todas as análises realizadas estão expressas no ficheiro CompreensãoDadosBrutos.ipynb. 
 
 Modelo preditivo de seleção da Meta-heurística:
+
     - Preparação dos dados: os dados utilizados no modelo preditivo é o ficheiro excel DataSet_ModeloClassificação.
+    
     - Modelação: o modelo preditivo está elaborado no ficheiro ModeloPred_Classificação.ipynb. Contém a aplicação de cinco técnicas de Machine Learning: 
     Árvores de Decisão, Random Forest, Support Vector Machines, Naive Bayes, Regressão Logística. 
+    
     - Avaliação: no modelo preditivo do ficheiro ModeloPred_Classificação.ipynb é possível observar, em cada técnica de Machine Learning, os resultados
     das métricas de avaliação (Accuracy, F1 Score Precision, Recall, AUC).
 
 Modelo preditivo de afinação dos parâmetros das Meta-heurísticas: foram desenvolvidos dois modelos, um modelo preditivo individual para cada Meta-heurística
 (Algoritmos Genéticos, Simulated Annealing, Tabu Search, Particle Swarm Optimization) e um modelo preditivo geral que realiza a afinação dos parâmetros de 
 todas as Meta-heurísticas. Em ambos os modelos são aplicadas três técnicas de Machine Learning: Árvores de Decisão, Random Forest e Regressão Linear. 
+
     - Modelos preditivos individuais:
+    
         - Relativo à Meta-heurística Algoritmos Genéticos: modelo preditivo individual está elaborado no ficheiro ModeloRegressão_GA.ipynb. Utiliza o ficheiro
         excel DataSet_Regressão_GA.
+        
         - Relativo à Meta-heurística Simulated Annealing: modelo preditivo individual está elaborado no ficheiro ModeloRegressão_SA.ipynb. Utiliza o ficheiro
         excel DataSet_Regressão_SA.
+        
         - Relativo à Meta-heurística Particle Swarm Optimization e Tabu Search: estes dois modelos preditivo individuais estão elaborados no ficheiro 
         ModeloRegressão_PSO_TS.ipynb. O modelo individual de cada Meta-heurística pode ser realizado nesse ficheiro, apenas tem de trocar o ficheiro excel
         associado e as variáveis dependentes consideradas. O ficheiro ModeloRegressão_PSO_TS.ipynb neste momento está configurado para realizar o modelo 
         preditivo individual de Particle Swarm Optimization mas, em comentário, é possível observar as mudanças a realizar para modificar para o modelo 
         preditivo individual de Tabu Search. Utiliza o ficheiro DataSet_Regressão_PSO ou o DataSet_Regressão_TS.
+        
     - Modelo preditivo geral: o modelo preditivo geral está elaborado no ficheiro ModeloRegressão_Geral.ipynb. Utiliza o ficheiro excel 
     DataSet_Regressão_ModeloGeral.
+    
     - Avaliação: em todos os modelos, individuais e geral, é possível observar os resultados das métricas de avaliação consideradas (MSE, RMSE, MAE, MAPE, R^2). 
 
 
