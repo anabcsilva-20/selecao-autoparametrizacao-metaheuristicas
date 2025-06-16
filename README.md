@@ -1,16 +1,17 @@
-# Projeto de Seleção e Autoparâmetrização de Meta-heurísticas com Machine Learning
+# Projeto de Seleção e Autoparametrização de Meta-heurísticas com Machine Learning
 
 
 # Descrição Geral
 
 Este documento apresenta, de forma resumida, a descrição e a finalidade de cada ficheiro incluído no projeto.
 
-Os documentos presentes nesta pasta referem-se aos modelos preditivos desenvolvidos para a seleção e autoparâmetrização de Meta-heurísticas, com a utilização 
+Os documentos presentes nesta pasta referem-se aos modelos preditivos desenvolvidos para a seleção e autoparametrização de Meta-heurísticas, com a utilização 
 de técnicas de Machine Learning, para otimização de problemas de escalonamento. Ao longo do projeto, foi implementada a metodologia CRISP-DM, das quais algumas 
 etapas são apresentadas nos ficheiros.
 
 ## Ficheiros Excel (pasta Data)
  os ficheiros excel são relativos às bases de dados utilizadas neste trabalho.
+ 
     - DataSet_DadosBrutos: ficheiro com os dados brutos usados no projeto. Todos os restantes ficheiros em excel resultam de transformações aplicadas 
     neste conjunto de dados. 
 
@@ -62,4 +63,6 @@ todas as Meta-heurísticas. Em ambos os modelos são aplicadas três técnicas d
     
     - Avaliação: em todos os modelos, individuais e geral, é possível observar os resultados das métricas de avaliação consideradas (MSE, RMSE, MAE, MAPE, R^2). 
 
+
+Ana Beatriz da Costa Silva 
 
